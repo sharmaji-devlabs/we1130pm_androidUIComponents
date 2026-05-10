@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TextViewActivity">
+
+<!--    TO SHOW ANY KIND OF TEXT USE TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My name is Rahul Sharma"
+        android:textSize="50sp"
+        android:fontFamily="sans-serif-black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My name is Rahul Sharma"
+        android:textSize="50sp"
+        />
+
+<!--        android:textFontWeight="200"-->
+<!--        android:textFontWeight=""
+            100 - 900
+            400 - weight is normal boldness
+            900 - bolder
+-->
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="we're applying font families."
+        android:textSize="30sp"
+        android:fontFamily="@font/roboto_variable_font_wdth_wght"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="we're applying font families."
+        android:textSize="30sp"
+        android:fontFamily="@font/poppins_black"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="we're applying font families."
+        android:textSize="30sp"
+        android:fontFamily="@font/poppins_blackitalic"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="we're applying font families."
+        android:textSize="30sp"
+        android:fontFamily="@font/poppins_bold"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="we're applying font families."
+        android:textSize="30sp"
+        android:fontFamily="@font/poppins_bolditalic"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="we're applying font families."
+        android:textSize="30sp"
+        android:fontFamily="@font/poppins_light"
+        />
+
+  </LinearLayout>

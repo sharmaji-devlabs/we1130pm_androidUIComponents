@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/transparent"
+    tools:context=".ImageViewExamplyActivity">
+
+<!--    To show any images of icon only use ImageView-->
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/img"-->
+<!--        />-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/img_1"-->
+<!--        />-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Image One"-->
+<!--        android:fontFamily="@font/poppins_black"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textAlignment="center"-->
+<!--        />-->
+
+<!--    <LinearLayout-->
+<!--       android:layout_width="match_parent"-->
+<!--       android:layout_height="wrap_content"-->
+<!--       android:orientation="horizontal"-->
+<!--       >-->
+<!--       <androidx.appcompat.widget.AppCompatImageView-->
+<!--           android:layout_width="wrap_content"-->
+<!--           android:layout_height="wrap_content"-->
+<!--           app:srcCompat="@drawable/img_2"-->
+<!--           />-->
+
+
+<!--       <androidx.appcompat.widget.AppCompatImageView-->
+<!--           android:layout_width="wrap_content"-->
+<!--           android:layout_height="wrap_content"-->
+<!--           app:srcCompat="@drawable/img_3"/>-->
+
+<!--   </LinearLayout>-->
+<!--        android:src="@drawable/img_3"-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="300dp"-->
+<!--        android:src="@drawable/img_5"-->
+<!--        android:scaleType="center"-->
+<!--        android:background="#BD5E5E"-->
+<!--        />-->
+
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/img_5"
+        android:scaleType="centerCrop"
+        android:background="#BD5E5E"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:maxWidth="250dp"
+        android:maxHeight="250dp"
+        android:minHeight="150dp"
+        android:minWidth="150dp"
+        android:src="@drawable/img_5"
+        android:scaleType="fitXY"
+        android:background="#BD5E5E"
+        />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/home"
+        android:background="#BD5E5E"
+         />
+
+</LinearLayout>
