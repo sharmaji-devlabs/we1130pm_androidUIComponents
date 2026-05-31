@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="orange_deep">#ff3839</color>
+    <color name="light_blue_grey">#5770A2</color>
 </resources>

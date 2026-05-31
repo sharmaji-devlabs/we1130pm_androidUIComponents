@@ -1,10 +1,11 @@
-package com.app.androiduipartone
+package com.app.androiduipartone.android_views
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.app.androiduipartone.R
 
 class TextViewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

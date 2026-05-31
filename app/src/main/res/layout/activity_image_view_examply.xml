@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:background="@android:color/transparent"
-    tools:context=".ImageViewExamplyActivity">
+    tools:context=".android_views.ImageViewExamplyActivity">
 
 <!--    To show any images of icon only use ImageView-->
 <!--    <ImageView-->

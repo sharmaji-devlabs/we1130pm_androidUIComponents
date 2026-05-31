@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidUIPartOne">
         <activity
-            android:name=".eventlistner_practic.BasicFormInput"
+            android:name=".android_views.PreDefinedAlertDialog"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,7 +21,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ToastViewExample"
+            android:name=".android_views.ImageButtonExample"
             android:exported="false">
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
@@ -30,7 +30,7 @@
 <!--            </intent-filter>-->
         </activity>
         <activity
-            android:name=".EditTextExampleActivity"
+            android:name=".relative_layout.RV_View_to_View"
             android:exported="false">
 
             <!-- <intent-filter> -->
@@ -41,7 +41,7 @@
             <!-- </intent-filter> -->
         </activity>
         <activity
-            android:name=".ImageViewExamplyActivity"
+            android:name=".relative_layout.ExampleOfRelativeLayout"
             android:exported="false">
 
             <!-- <intent-filter> -->
@@ -52,7 +52,95 @@
             <!-- </intent-filter> -->
         </activity>
         <activity
-            android:name=".TextViewActivity"
+            android:name=".android_views.SnackbarViewActivity"
+            android:exported="false">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".android_views.CustomToastActivity"
+            android:exported="false">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".example_of_layout_weight.LayoutWeightExample"
+            android:exported="false">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".margin_padding.MarginPaddingExamples"
+            android:exported="false">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".eventlistner_practic.BasicFormInput"
+            android:exported="false">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".android_views.ToastViewExample"
+            android:exported="false">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".android_views.EditTextExampleActivity"
+            android:exported="false">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".android_views.ImageViewExamplyActivity"
+            android:exported="false">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".android_views.TextViewActivity"
             android:exported="false" />
     </application>
 
