@@ -10,4 +10,5 @@
     <color name="orange_deep">#ff3839</color>
     <color name="light_blue">#2196F3</color>
     <color name="light_blue_grey">#5770A2</color>
+    <color name="error">#F44336</color>
 </resources>
