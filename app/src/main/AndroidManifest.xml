@@ -197,6 +197,30 @@
             android:name=".component_views.ComponentActivityOne"
             android:exported="false"
             android:windowSoftInputMode="adjustResize">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".component_views.SingleCompnent"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".checkbox_view.CheckBoxView"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize">
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
 
@@ -204,7 +228,7 @@
 <!--            </intent-filter>-->
         </activity>
         <activity
-            android:name=".component_views.SingleCompnent"
+            android:name=".radio_button_view.RadioButtonOrGroupViews"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>

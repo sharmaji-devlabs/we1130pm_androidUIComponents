@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".checkbox_view.CheckBoxView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="20dp"
+        >
+
+        <EditText
+            android:id="@+id/fill_this_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="fill this field"
+            android:inputType="text"
+            android:minHeight="50dp"
+            android:textColor="@color/black"
+
+            />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chkbx_terms_condition"
+            android:checked="false"
+            android:text="I'm agree to The Terms of Service and Privacy Policy"
+
+            />
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sumit"
+            android:id="@+id/btn_chkbx"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
